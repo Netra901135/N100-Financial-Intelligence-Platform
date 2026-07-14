@@ -1,0 +1,5 @@
+rule,severity,table,company_id,year,column,value,message
+DQ-06,WARNING,profitandloss,ADANIENSOL,2014.0,sales,0,Sales should be positive
+DQ-04,WARNING,balancesheet,ADANIENSOL,2014.0,total_assets,0,Total Assets should be greater than zero
+DQ-07,WARNING,cashflow,HDFCLIFE,2013.0,net_cash_flow,,Net Cash Flow is missing
+DQ-07,WARNING,cashflow,HDFCLIFE,2014.0,net_cash_flow,,Net Cash Flow is missing
