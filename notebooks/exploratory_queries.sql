@@ -97,3 +97,58 @@ GROUP BY company_id;
 ---------------------------------------------------------
 
 PRAGMA foreign_key_check;
+
+-- 1
+SELECT COUNT(*) FROM companies;
+
+-- 2
+SELECT COUNT(*) FROM financial_ratios;
+
+-- 3
+SELECT company_id,
+       MAX(return_on_equity_pct)
+FROM financial_ratios
+GROUP BY company_id;
+
+-- 4
+SELECT company_id,
+       AVG(net_profit_margin_pct)
+FROM financial_ratios
+GROUP BY company_id;
+
+-- 5
+SELECT company_id,
+       debt_to_equity
+FROM financial_ratios
+ORDER BY debt_to_equity DESC;
+
+-- 6
+SELECT company_id,
+       asset_turnover
+FROM financial_ratios
+ORDER BY asset_turnover DESC;
+
+-- 7
+SELECT company_id,
+       free_cash_flow
+FROM financial_ratios
+ORDER BY free_cash_flow DESC;
+
+-- 8
+SELECT year,
+       AVG(return_on_equity_pct)
+FROM financial_ratios
+GROUP BY year;
+
+-- 9
+SELECT year,
+       AVG(net_profit_margin_pct)
+FROM financial_ratios
+GROUP BY year;
+
+-- 10
+SELECT company_id,
+       year
+FROM financial_ratios
+WHERE return_on_equity_pct > 15
+AND debt_to_equity < 1;
