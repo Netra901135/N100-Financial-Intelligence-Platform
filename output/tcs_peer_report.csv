@@ -1,0 +1,6 @@
+company_id,year,sales,dividend_payout,net_profit_margin_pct,operating_profit_margin_pct,return_on_equity_pct,return_on_capital_employed_pct,return_on_assets_pct,debt_to_equity,interest_coverage,asset_turnover,free_cash_flow,revenue_cagr_5yr,pat_cagr_5yr,eps_cagr_5yr,id,broad_sector,sub_sector,index_weight_pct,market_cap_category,composite_quality_score
+TCS,2024.0,240893,58.0,19.14,26.69,45.42,58.16,28.61,0.09,87.1,1.5,50429.0,,,,87.0,Information Technology,IT Services,1.1,Large Cap,100
+INFY,2024.0,153670,,17.08,23.7,29.02,36.69,18.5,0.1,87.52,1.08,20117.0,,,,49.0,Information Technology,IT Services,3.37,Large Cap,100
+HCLTECH,2024.0,109913,90.0,14.29,22.02,22.81,32.41,15.75,0.08,46.46,1.1,15840.0,,,,38.0,Information Technology,IT Services,2.5,Large Cap,85
+LTIM,2024.0,35517,42.0,12.91,17.98,21.76,27.29,15.94,0.11,31.93,1.23,1752.0,,,,62.0,Information Technology,IT Services,2.64,Large Cap,70
+TECHM,2024.0,51996,150.0,4.61,8.67,9.06,15.82,5.6,0.08,13.86,1.21,5058.0,,,,88.0,Information Technology,IT Services,2.39,Large Cap,30
